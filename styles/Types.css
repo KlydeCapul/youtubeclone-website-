@@ -1,0 +1,55 @@
+.types {
+  height: 56px;
+  margin-right: 24px;
+  background-color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  left: 100px;
+  right: 0px;
+  top: 56px;
+
+  z-index: 1;
+}
+
+.types-link{
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  white-space: nowrap;
+
+  transition: background-color 0.3s;
+}
+.types-link div {
+  font-size: 14px;
+}
+.types-link:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+.types-link:active {
+  background-color: #121212;
+  color: white;
+}
+
+.all-div {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+
+  display: flex;
+  flex-shrink: 0;
+
+  transition: background-color 0.3s;
+}
